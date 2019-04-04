@@ -6,7 +6,7 @@ Current version 1.1 (03-06-2019) Working on 1.02
 -- Chawleetus!-- CleeDnky!-- LeetusDink! --> HOLY @$#$! ---> Future server owners will be able to configure!
 it helps reduce base sizes (and subsequently improved server performance). It allows the players to go out for a longer time away from base to explore, before having to return, while giving them the storage available to roam that bit further.
 
-Other Projects
+# Other Projects!
  Looking for InventoryPlusPlus? Its located here
  https://steamcommunity.com/sharedfiles/filedetails/?id=1663971788
 
