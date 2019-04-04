@@ -1,7 +1,6 @@
-# DinkyItemsPlus - Working on DayZ 1.02
-
 # DinkyItemsPlus
-# Current version 1.1 (03-06-2019) Working on 1.02
+Working on DayZ 1.02
+Current version 1.1 (03-06-2019) Working on 1.02
 
 # Cleetus
 it helps reduce base sizes (and subsequently improved server performance). It allows the players to go out for a longer time away from base to explore, before having to return, while giving them the storage available to roam that bit further.
