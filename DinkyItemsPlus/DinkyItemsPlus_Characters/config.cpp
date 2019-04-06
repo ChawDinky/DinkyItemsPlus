@@ -22,11 +22,11 @@ class CfgPatches
 		requiredAddons[]={"DZ_Characters"};
 	};
 };
-class A
 class cfgVehicles
 { // Bags
-	class Clothing: Clothing_Base{};
-	class Clothing_Base: DinkyClothing_Base{};
+	class Switchable_Base;
+	class DinkyClothing_Base;
+	class Clothing: DinkyClothing_Base{};
 	class TaloonBag_ColorBase: DinkyClothing_Base
 	{
 		itemSize[]={4,5};
@@ -315,7 +315,7 @@ class cfgVehicles
 	{
 		itemSize[]={2,1};
 	};
-	class Universal_Bandana_Redpattern: DinkyClothing_Base_Base
+	class Universal_Bandana_Redpattern: DinkyClothing_Base
 	{
 		itemSize[]={1,1};
 	};

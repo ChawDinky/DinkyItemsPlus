@@ -1,24 +1,105 @@
-enum {
-	destructengine = 2,
-	destructdefault = 6,
-	destructwreck = 7,
-	destructtree = 3,
-	destructtent = 4,
-	stabilizedinaxisx = 1,
-	stabilizedinaxisy = 2,
-	destructno = 0,
-	stabilizedinaxesboth = 3,
-	stabilizedinaxesnone = 0,
-	destructman = 5,
-	destructbuilding = 1
-};
-
 class CfgPatches
 {
 	class DinkyItemsPlus_Weapons
 	{
 		units[]={};
-		weapons[]={};
+		weapons[]=
+		{
+			 "AKM_Base",
+			 "M4A1_Base",
+			 "Mosin9130_Base",
+			 "SawedoffMosin9130_Base",
+			 "MP5K_Base",
+			 "CZ61_Base",
+			 "SVD_Base",
+			 "UMP45_Base",
+			 "FNX_Base",
+			 "MakarovIJ70_Base",
+			 "CZ75_Base",
+			 "Izh18_Base",
+			 "SKS_Base",
+			 "AK74_Base",
+			 "B95_Base",
+			 "AugSteyr_Base",
+			 "CZ527_Base",
+			 "FAL_Base",
+			 "M249_Base",
+			 "Groza_Base",
+			 "PM73Rak_Base",
+			 "Repeater_Base",
+			 "Ruger1022_Base",
+			 "ScoutBase",
+			 "Trumpet_Base",
+			 "VSS_Base",
+			 "Winchester70_Base",
+			 "Red9_Base",
+			 "MakarovPB_Base",
+			 "P1_Base",
+			 "MKII_Base",
+			 "Magnum_Base",
+			 "Pistol_Base",
+			 "Glock19_Base",
+			 "Flaregun_Base",
+			 "DE_Base",
+			 "Colt1911_Base",
+			 "Saiga12KShotgun_Base",
+			 "Mp133Shotgun_Base",
+			 "Izh43Shotgun_Base",
+			 "Archery_Base",
+			 "Inventory_Base",
+			 "AKM",
+			 "M4A1",
+			 "Mosin9130",
+			 "Mosin9130_Black",
+			 "Mosin9130_Green",
+			 "Mosin9130_Camo",
+			 "SawedoffMosin9130",
+			 "MP5K",
+			 "CZ61",
+			 "SVD",
+			 "UMP45",
+			 "FNX45",
+			 "MakarovIJ70",
+			 "CZ75",
+			 "Izh18",
+			 "Mp133Shotgun",
+			 "SKS",
+			 "AK74",
+			 "B95",
+			 "AugSteyr",
+			 "CZ527",
+			 "FAL",
+			 "M249",
+			 "Groza",
+			 "PM73Rak",
+			 "Repeater",
+			 "Ruger1022",
+			 "Scout",
+			 "Trumpet",
+			 "VSS",
+			 "Winchester70",
+			 "Red9",
+			 "MakarovPB",
+			 "P1",
+			 "MKII",
+			 "Magnum",
+			 "LongHorn",
+			 "Glock19",
+			 "Flaregun",
+			 "DE",
+			 "Colt1911",
+			 "Engraved1911",
+			 "Saiga12KShotgun",
+			 "Mp133Shotgun_PistolGrip",
+			 "Izh43Shotgun",
+			 "SawedoffIzh43Shotgun",
+			 "PVCBow",
+			 "QuickieBow",
+			 "Crossbow",
+			 "RecurveBow",
+			 "Shockpistol_Base"
+		};
+		ammo[] = {"HandGrenade_Frag","HandGrenade_Smoke","HandGrenade_Flash","Bullet_12GaugePellets","Bullet_12GaugeSlug","Bullet_556x45","Bullet_545x39","Bullet_762x54","Bullet_308Win","Bullet_762x39","Bullet_45ACP","Bullet_357","Bullet_9x19","Bullet_380","Bullet_22","Bullet_9x39","Arrow_Composite","Arrow_Target","Arrow_Hunting","Arrow_Bolt","Arrow_Boned","Arrow_Primitive","Arrow_Crude","Dart_Syringe","Bullet_Flare","GrenadeM4","Rocket_RPG7_Base","Rocket_LAW_Base","HandGrenade_Frag","HandGrenade_Smoke","HandGrenade_Flash","Bullet_12GaugePellets","Bullet_12GaugeSlug","Bullet_556x45","Bullet_545x39","Bullet_762x54","Bullet_308Win","Bullet_762x39","Bullet_45ACP","Bullet_357","Bullet_9x19","Bullet_380","Bullet_22","Bullet_9x39","Arrow_Composite","Arrow_Target","Arrow_Hunting","Arrow_Bolt","Arrow_Boned","Arrow_Primitive","Arrow_Crude","Dart_Syringe","Bullet_Flare","GrenadeM4","Rocket_RPG7_Base","Rocket_LAW_Base"};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
@@ -1300,7 +1381,6 @@ class cfgVehicles
 		itemSize[]={1,1};
 		itemsCargoSize[]={0,0};
 	};
-};
 };
 class CfgAmmo
 {

@@ -1,23 +1,24 @@
-enum {
-	destructengine = 2,
-	destructdefault = 6,
-	destructwreck = 7,
-	destructtree = 3,
-	destructtent = 4,
-	stabilizedinaxisx = 1,
-	stabilizedinaxisy = 2,
-	destructno = 0,
-	stabilizedinaxesboth = 3,
-	stabilizedinaxesnone = 0,
-	destructman = 5,
-	destructbuilding = 1
-};
-
 class CfgPatches
 {
 	class DinkyItemsPlus_Gear
 	{
-		units[]={"TentMedium_Packed","TentMedium_Pitched"};
+		units[]=
+		{
+			"TentMedium_Packed",
+			"TentMedium_Pitched",
+			"ItemBook",
+			"Inventory_Base",
+			"Box_Base",
+			"Container_Base",
+			"Bottle_Base",
+			"Edible_Base",
+			"ItemOptics",
+			"FishingRod_Base",
+			"Trap_Base",
+			"ItemMap",
+			"Transmitter_Base",
+			"BookBible"
+		};
 		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=

@@ -2,7 +2,32 @@ class CfgPatches
 {
 	class DinkyItemsPlus_Vehicle
 	{
-		units[]={};
+		units[]=
+		{
+			"CarWheel",
+			"CarDoor",
+			"HatchbackWheel",
+			"HatchbackWheel_Ruined",
+			"HatchbackDoors_Driver",
+			"HatchbackHood",
+			"HatchbackTrunk",
+			"TruckBattery",
+			"CarBattery",
+			"AircraftBattery",
+			"TruckExhaust",
+			"EngineBelt",
+			"BrakeFluid",
+			"EngineOil",
+			"CarRadiator",
+			"TruckRadiator",
+			"TireRepairKit",
+			"HeadlightH7",
+			"WindscreenBox",
+			"GlowPlug",
+			"SparkPlug",
+			"HeadlightH7_Box",
+			"CanisterGasoline"
+		};
 		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
