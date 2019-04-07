@@ -29,7 +29,6 @@ class CfgWeapons
 	class CZ61_Base;
 	class SVD_Base;
 	class UMP45_Base;
-	class FNX_Base;
 	class MakarovIJ70_Base;
 	class CZ75_Base;
 	class Izh18_Base;
@@ -111,7 +110,7 @@ class CfgWeapons
 	{
 		itemSize[] = {4,1};
 	};
-	class FNX45: FNX_Base
+	class FNX45: ItemOptics
 	{
 		itemSize[] = {2,1};
 	};
