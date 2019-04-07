@@ -1,0 +1,7 @@
+﻿///<'DinkyItemsPlus.pbo' properties via Mikero's dos tools, dll version 7.19>///
+prefix=DinkyItemsPlus
+Mikero=DePbo.dll.7.19
+version=Sat Apr 06 04:02:32 2019
+//Pbo Type is: Arma Addon
+//Sha: '9127D3431BF7ECCF1290AD69606CCB03DC6475ED'
+//////</properties>//////
